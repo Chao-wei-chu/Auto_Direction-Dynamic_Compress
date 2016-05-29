@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/AbsoluteLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/seekbar_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="20dp"
+        android:text="AR探測距離:" />
+
+    <SeekBar
+        android:id="@+id/seekBar1"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="50dp" />
+
+    <Button
+        android:id="@+id/seek_button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="310dp"
+        android:layout_y="30dp"
+        android:text="設定" />
+    
+    <TextView
+        android:id="@+id/seekbar_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="15dp"
+        android:layout_y="120dp"
+        android:text="地圖透明度:" />
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_x="15dp"
+        android:layout_y="150dp" />
+
+    <Button
+        android:id="@+id/seek_button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="310dp"
+        android:layout_y="130dp"
+        android:text="設定" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="900dp"
+        android:layout_height="220dp"
+        android:layout_x="380dp"
+        android:layout_y="15dp"
+        android:src="@drawable/psi" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:layout_x="10dp"
+        android:layout_y="230dp"
+        android:src="@drawable/pm2_5" />
+
+</AbsoluteLayout>
